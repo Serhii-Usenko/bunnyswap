@@ -2,7 +2,6 @@
   "name": "shop_v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Serhii-Usenko.github.io",
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@headlessui/react": "^1.4.1",
@@ -19,8 +18,6 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
