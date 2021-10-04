@@ -1,0 +1,55 @@
+.swap__title {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.swap__init {
+    display: flex;
+    justify-content: center;
+}
+
+.swap__init-first,
+.swap__init-second {
+    width: 100px;
+    height: 30px;
+    margin:25px 15px;
+    font-size: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid orange;
+}
+
+.swap__inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.swap__buy, 
+.swap__sell {
+    width: 20%;
+    height: 30px;
+    margin:25px 10px 25px 0;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    outline: none;
+}
+
+.swap__buy-button,
+.swap__sell-button {
+    width: 20%;
+    height: 30px;
+    margin:25px 0 25px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+.swap__inputs-result {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.color-result {
+    color: orange;
+}
